@@ -1,11 +1,18 @@
 Package: MedianImputerArissyaa
-Title: What the Package Does (One Line, Title Case)
+
+Title:Imputes Missing Numeric Data Using Column-Wise Medians.
+
 Version: 0.0.0.9000
-Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+
+Authors@R: NUR ARISSYA AINA BT ZAIHAM
+
+Description: The MedianImputer package is designed to simplify the handling of missing data in numeric datasets by providing an easy-to-use function for 
+median imputation. This package identifies missing values (NA) in numeric columns of a given dataset and replaces them with the median value of the respective
+column, ensuring robust imputation even in the presence of outliers. By automating this process, MedianImputer helps maintain data integrity and supports
+preprocessing tasks in data analysis and machine learning workflows.
+
+License: GPL-3
+   
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
